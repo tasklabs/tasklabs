@@ -1,0 +1,424 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	/* box-sizing: border-box;
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+	-webkit-text-size-adjust:none;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-transition: opacity 0.2s ease;
+	-moz-transition: opacity 0.2s ease;
+	-ms-transition: opacity 0.2s ease;
+	-o-transition: opacity 0.2s ease;
+	transition: opacity 0.2s ease; */
+}
+
+/* Font */
+
+
+h1 {
+	font-family: 'San Francisco', -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size:42px;
+	font-weight:500;
+	line-height:48px;
+	letter-spacing: .4px;
+	margin: 0px 0 16px 0;
+	color: #344854;
+}
+
+h2 {
+	font-family: 'San Francisco', -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size:28px;
+	font-weight:500;
+	line-height:32px;
+	margin:0px 0 24px 0;
+	color: #344854;
+}
+h3 {
+	font-family: 'San Francisco', -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 24px;
+	margin-bottom: 24px;
+	font-weight: 400;
+	color: #677B8C;
+}
+
+h4 {
+	font-family: 'San Francisco', -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	letter-spacing: 0.6px;
+	line-height: 26px;
+	text-transform: uppercase;
+	margin-top:40px;
+	margin-bottom: 20px;
+	font-weight: 500;
+	color: #344854;
+}
+
+p {
+	font-family: 'San Francisco', -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	line-height: 28px;
+	letter-spacing: .2px;
+	margin-bottom: 24px;
+	color: #344854;
+}
+
+.button {
+	background-color: #344854; /* Green */
+	font-family: 'San Francisco', -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size:28px;
+	font-weight:500;
+	border: none;
+	color: white;
+	margin: 20px;
+	padding: 15px 32px;
+	text-align: center;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+  }
+
+/* Add a black background color to the top navigation */
+.topnav {
+	display: inline-block;
+	background-color:white;
+	width: 100%;
+	max-width: 1195px;
+	box-sizing: border-box; 
+	justify-content: center;
+	overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+	font-family: 'San Francisco', -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: 600;
+	float: left;
+	display: block;
+	color: #000000;
+	text-align: center;
+	padding: 20px 20px;
+	text-decoration: none;
+	font-size: 16px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+	background-color: black;
+	color: white;
+  }
+  
+ 
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+	display: none;
+  }
+
+.cover{
+    height: 100%;
+	background: linear-gradient(180deg, #E4EFFB 0%, #FFF5E6 100%);
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+/* Call to Action
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.call-to-action-title{
+	font-family: 'San Francisco', -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 3.6rem;
+	font-weight: 700;
+	margin:0px 20px;
+	padding: 20px 0px;
+	color: #344854;
+}
+
+.call-to-action-subtitle{
+ 	font-family: 'San Francisco', -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 1.5rem;
+	font-weight: 400;
+	margin:0px 20px;
+	padding: 20px 0px;
+	color: #344855;
+}
+
+@media screen and (max-width: 1075px) {
+	.call-to-action-title{
+		font-family: 'San Francisco', -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		font-size: 3rem;
+		font-weight: 700;
+		margin:0px 20px;
+		padding: 20px 0px;
+		color: #344854;
+	}
+}
+
+@media screen and (max-width: 537.5px) {
+	.call-to-action-title{
+		font-family: 'San Francisco', -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		font-size: 2.2rem;
+		font-weight: 700;
+		margin:0px 20px;
+		padding: 0px 0px;
+		color: #344854;
+	}
+	.call-to-action-subtitle{
+		font-family: 'San Francisco', -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	   font-size: 1.2rem;
+	   font-weight: 400;
+	   margin:0px 0px;
+	   padding: 20px 0px;
+	   color: #344855;
+   }
+
+}
+
+
+/* Layout
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.container-1 {
+	display: grid;
+	grid-gap: 0px;
+    grid-template-columns:1fr;
+	max-width: 1195px;
+	margin: 0 auto;
+	box-sizing: border-box; 
+}
+ 
+
+.container-1-1-1 {
+	display: grid;
+	grid-gap: 0px;
+    grid-template-columns:repeat(auto-fill, minmax(395px,1fr));
+    justify-content: center;;
+	width: 100%;
+	max-width: 1195px;
+	margin: 0 auto;
+	box-sizing: border-box; 
+}
+
+.container-2-1 {
+	display: grid;
+	grid-gap: 0px;
+    grid-template-columns:2fr 1fr;
+	width: 100%;
+	max-width: 1195px;
+	margin: 0 auto;
+	box-sizing: border-box; 
+}
+
+.container-1-2 {
+	display: grid;
+	grid-gap: 0px;
+    grid-template-columns:1fr 2fr;
+	width: 100%;
+	max-width: 1195px;
+	margin: 0 auto;
+	box-sizing: border-box; 
+}
+
+
+.container-1-1 {
+	display: grid;
+	grid-gap: 0px;
+    grid-template-columns:repeat(auto-fill, minmax(537.5px,1fr));
+    justify-content: center;;
+	width: 100%;
+	max-width: 1195px;
+	margin: 0 auto;
+	box-sizing: border-box; 
+}
+
+@media screen and (max-width: 537.5px) {
+	.container-1-1-1 {
+		display: grid;
+		grid-gap: 0px;
+		grid-template-columns:1fr;
+		justify-content: center;;
+		width: 100%;
+		max-width: 1195px;
+		margin: 0 auto;
+		box-sizing: border-box; 
+	}
+	.container-2-1 {
+		display: grid;
+		grid-gap: 0px;
+		grid-template-columns:1fr;
+		justify-content: center;;
+		width: 100%;
+		max-width: 1195px;
+		margin: 0 auto;
+		box-sizing: border-box; 
+	}
+
+	.container-1-2 {
+		display: grid;
+		grid-gap: 0px;
+		grid-template-columns:1fr;
+		justify-content: center;;
+		width: 100%;
+		max-width: 1195px;
+		margin: 0 auto;
+		box-sizing: border-box; 
+	}
+	.container-1-1 {
+		display: grid;
+		grid-gap: 0px;
+		grid-template-columns:1fr;
+		justify-content: center;;
+		width: 100%;
+		max-width: 1195px;
+		margin: 0 auto;
+		box-sizing: border-box; 
+	}
+
+}
+
+
+/* Cards
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.card {
+  display: inline-block;
+  background-color: white;
+  /* vertical-align: middle; */
+  text-align: left;
+  height: 490px;
+  padding: 20px;
+  margin:20px;
+  box-shadow: 0 20px 20px rgba(0,0,0,.08);
+  overflow-y: hidden; 
+
+}
+
+.card img {
+	display: block;
+	max-height: auto;
+	top: 0;
+	padding-bottom: 50;
+	left: 0;
+	right: 0;
+  }
+
+.card-1 {
+	display: inline-block;
+	text-align: left;
+	height: auto;
+	margin:20px;
+	/* padding: 20px;
+
+	box-shadow: 0 20px 20px rgba(0,0,0,.08); */
+  }
+  .card-2 {
+	display: inline-block;
+	text-align: left;
+	height: auto;
+	margin:20px;
+	padding-left: 20px;
+	padding-top: 200px ;
+  }
+
+ 
+  @media screen and (max-width: 1025px) {
+	.card-1 {
+		display: inline-block;
+		vertical-align: top;
+		text-align: center;
+		height: auto;
+		padding: 40px;
+		margin: 20px;
+	  }
+}
+
+@media screen and (max-width: 537.5px) {
+	.card-1 {
+		display: inline-block;
+		vertical-align: top;
+		text-align: center;
+		height: auto;
+		padding: 0px;
+		margin: 20px;
+	  }
+	 .card-2 {
+		display: inline-block;
+		text-align: left;
+		height: auto;
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-top: 50px;
+		margin-bottom: 0px;
+	  }
+	  .card-2 p {
+		font-family: 'San Francisco', -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		font-size: 18px;
+		line-height: 28px;
+		letter-spacing: .2px;
+		margin-bottom: 0px;
+		color: #344854;
+	}
+}
+
+.img {
+	width: 1fr;
+}
+
+
+.fakeimg {
+  background: linear-gradient(180deg, #E4F0FB 7.29%, #E2F8FB 100%);
+  width: 1fr;
+  margin-bottom: 10px
+;
+}
+
+.card-title {
+	font-family: 'San Francisco', -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 30px;
+	margin-bottom: 12px;
+	color: #344854;
+}
+
+
+
+ 
+
+
+
+
+/*color-scheme*/
+
+/* Main Primary color */
+.color-primary-0 { color: #FFDEC0 }	
+.color-primary-1 { color: #FFF2E6 }
+.color-primary-2 { color: #FFE8D3 }
+.color-primary-3 { color: #FFD4AD }
+.color-primary-4 { color: #FFCB9A }
+
+
+/* Main Secondary color (1) */
+.color-secondary-1-0 { color: #FFE7C0 }	
+.color-secondary-1-1 { color: #FFF5E6 }
+.color-secondary-1-2 { color: #FFEED3 }
+.color-secondary-1-3 { color: #FFDFAD }
+.color-secondary-1-4 { color: #FFD89A }
+
+
+/* Main Secondary color (2) */
+.color-secondary-2-0 { color: #B7CFEC }	
+.color-secondary-2-1 { color: #E4EFFB }
+.color-secondary-2-2 { color: #CEE0F5 }
+.color-secondary-2-3 { color: #9FBDE1 }
+.color-secondary-2-4 { color: #86A9D3 }
+
+
+/* Main Complement color */
+.color-complement-0 { color: #B1E3EA }	
+.color-complement-1 { color: #E2F8FB }
+.color-complement-2 { color: #CBEFF4 }
+.color-complement-3 { color: #98D5DD }
+.color-complement-4 { color: #7EC4CE }
+

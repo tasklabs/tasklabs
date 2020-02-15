@@ -1,0 +1,11 @@
+{
+  "name": "midochi",
+  "version": "0.0.1",
+  "description": "alpha",
+  "main": "index.js",
+  "author": "Lim Jing Jie",
+  "license": "Midochi Pte Ltd",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
